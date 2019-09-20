@@ -8,5 +8,5 @@ class TestOperacoes(TestCase):
     def test_soma(self):
         self.assertEqual(self.operacoes.soma([1,5]),6, "Should be 6")
     
-    def test_potenciacao(self):
-        self.assertEqual(self.operacoes.)
+    def test_palavra(self):
+        self.assertEqual(self.operacoes.total_letras('Hariel'),6, "Should be 6")

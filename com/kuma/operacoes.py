@@ -14,6 +14,10 @@ class operacoes:
     def petenciacao(self, valores):
         val=0
         for v in valores:
-            val *= val
+            val *= v
         return val
     
+    def total_letras(self,palavra):
+        return len(palavra)
+        
+        
